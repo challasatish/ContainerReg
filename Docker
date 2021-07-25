@@ -1,0 +1,6 @@
+#base image ubuntu 
+
+FROM ubuntu 
+MAINTAINER  ram ceh123ram@gmail.com
+RUN apt-get update 
+CMD [ "echo", "hello world from my docker image"]
